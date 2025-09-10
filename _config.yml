@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/qiujiandong
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,9 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  categories: /categories/
+  tags: /tags/
+  projects: https://github.com/qiujiandong
 
 
 # Links to your social media accounts.
@@ -29,24 +31,10 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
+    link: https://github.com/qiujiandong
   -
     icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    link: mailto:qiujiandong1998@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -58,9 +46,7 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
-  post_count: 5
-  sort_updated: false
+  show_all_posts: true
 
 # Customize the archive view.
 # Options:
@@ -79,7 +65,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2025
   end_year:
 
 # Customize the 404 page
@@ -133,12 +119,12 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+highlight: github
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: light
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -165,12 +151,12 @@ open_graph:
 
 # Enable MathJax support for Latex
 mathjax:
-  enabled: false
+  enabled: true
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: qiujiandong
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
