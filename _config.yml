@@ -124,7 +124,7 @@ highlight: github
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: light
+colorscheme: custom
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -155,7 +155,7 @@ mathjax:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: true
+  enabled: false
   shortname: qiujiandong
 
 # Fill in your Utterances data to enable Utterances comments
